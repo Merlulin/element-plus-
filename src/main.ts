@@ -10,7 +10,6 @@ const app = createApp(App)
 
 for (let i in Icons) {
     app.component(`el-icon${toElLine(i)}`, (Icons as any)[i])
-    console.log(`el-icon${toElLine(i)}`)
 }
 
 app.use(router).use(ElementPlus)
