@@ -14,6 +14,11 @@ const router = createRouter({
           path: '/',
           name: 'home',
           component: Home,
+        },
+        {
+          path: '/chooseIcon',
+          name: 'chooseIcon',
+          component: () => import('@/view/chooseIcon/index.vue'),
         }
       ]
     },
