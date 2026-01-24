@@ -17,10 +17,10 @@
     </span>
     header
   </div>
-  
+
 </template>
 
-<style scoped>
+<style scoped lang="scss">
   .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 200px;
   }

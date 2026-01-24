@@ -12,6 +12,6 @@ let visible = ref<boolean>(false)
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>

@@ -26,7 +26,7 @@ const isCollapse = ref(false)
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
   .el-header {
     padding: 0;
     border-bottom: 1px solid #eee;
