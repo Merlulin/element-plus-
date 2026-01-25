@@ -7,4 +7,8 @@
 <style lang="scss">
 @import url('./styles/base.scss');
 @import url('./styles/ui.scss');
+
+.el-popper {
+    padding: 0px !important;
+}
 </style>

@@ -24,6 +24,11 @@ const router = createRouter({
           path: '/chooseArea',
           name: 'chooseArea',
           component: () => import('@/view/chooseArea/index.vue'),
+        },
+        {
+          path: '/notification',
+          name: 'notification',
+          component: () => import('@/view/notification/index.vue'),
         }
       ]
     },
